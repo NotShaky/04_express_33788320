@@ -5,7 +5,7 @@ const router = express.Router();
 // Handle the main routes
 
 // Home route
-router.get("/", (req, res) => res.send ("This is the home page."));
+router.get("/", (req, res) => res.send ("<h1>This is the home page.</h1>"));
 // About route
 router.get("/about", (req, res) => res.send ('<h1>This is the about page</h1>'));
 // Contact route
